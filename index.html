@@ -694,13 +694,18 @@
                 </div>
                 
                 <!-- Weather Widget Placeholder -->
+                <!-- Option 2B: Weatherwidget.io Widget -->
                 <div class="bg-gray-50 p-6 rounded-lg mt-12">
                     <h3 class="text-xl font-semibold mb-4">Météo actuelle à Prague</h3>
-                    <div class="flex items-center justify-center h-24">
-                        <i class="fas fa-cloud-sun text-4xl mr-4 text-gray-400"></i>
-                        <p class="text-gray-500">Widget météo à intégrer</p>
+                    <div class="flex justify-center">
+                        <!-- Weather Widget from weatherwidget.io -->
+                        <a class="weatherwidget-io" href="https://forecast7.com/fr/50d0814d42/prague/" data-label_1="PRAGUE" data-label_2="MÉTÉO" data-theme="original" data-basecolor="#f7f7f7" data-accent="#c0392b" data-highcolor="#c0392b" data-lowcolor="#34495e" >PRAGUE MÉTÉO</a>
+                        <script>
+                        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+                        </script>
                     </div>
                 </div>
+                
             </div>
         </div>
     </section>
